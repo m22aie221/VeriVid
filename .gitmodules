@@ -6,4 +6,4 @@
 	url = https://github.com/m22aie221/SEA-RAFT.git
 [submodule "MiDaS"]
 	path = MiDaS
-	url = https://github.com/isl-org/MiDaS.git
+	url = https://github.com/m22aie221/MiDaS.git
