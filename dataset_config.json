@@ -1,0 +1,65 @@
+{
+  "max_frames": 16,
+  "split_config": {
+      "train": {
+          "facial": {
+              "real": 50,
+              "fake": 250
+          },
+          "non-facial": {
+              "real": 450,
+              "fake": 250
+          }
+      },
+      "test": {
+          "facial": {
+              "real": 25,
+              "fake": 25
+          },
+          "non-facial": {
+              "real": 25,
+              "fake": 25
+          }
+      },
+      "test_new": {
+        "facial": {
+            "real": 25,
+            "fake": 25
+        },
+        "non-facial": {
+            "real": 25,
+            "fake": 25
+        }
+    }
+  },
+  "dataset_paths": {
+      "facial": {
+          "real": [
+              "/scratch/data/m22aie221/workspace/dataset/facial/dfplatter/C40/real_SetB",
+              "/scratch/data/m22aie221/workspace/dataset/facial/dfplatter/C40/real_SetC",
+              "/scratch/data/m22aie221/workspace/dataset/facial/dfplatter/C40/real"
+          ],
+          "fake": [
+              "/scratch/data/m22aie221/workspace/dataset/facial/dfplatter/C40/SetB",
+              "/scratch/data/m22aie221/workspace/dataset/facial/dfplatter/C40/SetC"
+          ]
+      },
+      "non-facial": {
+          "real": [
+              "/scratch/data/m22aie221/workspace/dataset/DeCoff/real",
+              "/scratch/data/m22aie221/workspace/dataset/non-facial/real",
+              "/scratch/data/m22aie221/workspace/dataset/non-facial/real/pexels/pexels_indian_videos"
+          ],
+          "fake": [
+              "/scratch/data/m22aie221/workspace/dataset/DeCoff/GEN2",
+              "/scratch/data/m22aie221/workspace/dataset/DeCoff/keling",
+              "/scratch/data/m22aie221/workspace/dataset/DeCoff/ModelScopeT2V",
+              "/scratch/data/m22aie221/workspace/dataset/DeCoff/pika",
+              "/scratch/data/m22aie221/workspace/dataset/DeCoff/Show1",
+              "/scratch/data/m22aie221/workspace/dataset/DeCoff/sora",
+              "/scratch/data/m22aie221/workspace/dataset/DeCoff/T2V",
+              "/scratch/data/m22aie221/workspace/dataset/DeCoff/veo"
+          ]
+      }
+  }
+}
