@@ -1,0 +1,9 @@
+[submodule "TimeSformer"]
+	path = TimeSformer
+	url = https://github.com/m22aie221/TimeSformer.git
+[submodule "SEA-RAFT"]
+	path = SEA-RAFT
+	url = https://github.com/m22aie221/SEA-RAFT.git
+[submodule "MiDaS"]
+	path = MiDaS
+	url = https://github.com/isl-org/MiDaS.git
